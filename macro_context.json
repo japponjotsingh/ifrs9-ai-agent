@@ -1,0 +1,120 @@
+{
+  "summary": "Macroeconomic conditions deteriorated significantly from Q3 to Q4 2024",
+  "key_drivers": [
+    {
+      "variable": "Unemployment Rate",
+      "change": "+0.5 points to 4.3%",
+      "impact": "Critical - Primary driver of consumer default risk"
+    },
+    {
+      "variable": "GDP Growth",
+      "change": "-0.9 points to 1.9%",
+      "impact": "High - Economic slowdown reduces repayment capacity"
+    },
+    {
+      "variable": "10-Year Yield",
+      "change": "+0.4 bps to 4.65%",
+      "impact": "High - Rising rates increase debt service costs"
+    }
+  ],
+  "portfolio_implications": [
+    "Expected PD increase: 15-25% based on macro deterioration",
+    "Consumer products (Personal Loans, Credit Cards) most vulnerable",
+    "SME Loans at risk due to economic slowdown",
+    "Mortgages somewhat insulated but facing rate pressure"
+  ],
+  "q3_to_q4_changes": {
+    "bond_yield_10y": {
+      "q3": 4.25,
+      "q4": 4.65,
+      "absolute_change": 0.4,
+      "percent_change": 9.41
+    },
+    "gdp_growth_rate": {
+      "q3": 2.8,
+      "q4": 1.9,
+      "absolute_change": -0.9,
+      "percent_change": -32.14
+    },
+    "unemployment_rate": {
+      "q3": 3.8,
+      "q4": 4.3,
+      "absolute_change": 0.5,
+      "percent_change": 13.16
+    },
+    "inflation_rate": {
+      "q3": 2.4,
+      "q4": 2.8,
+      "absolute_change": 0.4,
+      "percent_change": 16.67
+    },
+    "fed_funds_rate": {
+      "q3": 5.25,
+      "q4": 5.5,
+      "absolute_change": 0.25,
+      "percent_change": 4.76
+    },
+    "consumer_confidence": {
+      "q3": 102.5,
+      "q4": 96.8,
+      "absolute_change": -5.7,
+      "percent_change": -5.56
+    },
+    "housing_price_index": {
+      "q3": 315.2,
+      "q4": 310.5,
+      "absolute_change": -4.7,
+      "percent_change": -1.49
+    },
+    "credit_spread": {
+      "q3": 1.85,
+      "q4": 2.25,
+      "absolute_change": 0.4,
+      "percent_change": 21.62
+    }
+  },
+  "risk_impact_analysis": {
+    "bond_yield_10y": {
+      "change": 0.4,
+      "direction": "Negative",
+      "impact": "High",
+      "explanation": "Rising rates increase borrowing costs and debt service burden, leading to higher default risk. +40 bps indicates tighter financial conditions.",
+      "expected_pd_impact": "+8-12%"
+    },
+    "gdp_growth_rate": {
+      "change": -0.9,
+      "direction": "Negative",
+      "impact": "High",
+      "explanation": "Economic slowdown from 2.8% to 1.9% reduces household income and business revenues, increasing default probability.",
+      "expected_pd_impact": "+10-15%"
+    },
+    "unemployment_rate": {
+      "change": 0.5,
+      "direction": "Negative",
+      "impact": "Critical",
+      "explanation": "Rising unemployment (+0.5 points) is the strongest predictor of consumer loan defaults. Job losses directly impair repayment ability.",
+      "expected_pd_impact": "+15-20%"
+    },
+    "inflation_rate": {
+      "change": 0.4,
+      "direction": "Negative",
+      "impact": "Medium",
+      "explanation": "Persistent inflation erodes purchasing power and strains household budgets, particularly for low-income borrowers.",
+      "expected_pd_impact": "+5-8%"
+    },
+    "consumer_confidence": {
+      "change": -5.7,
+      "direction": "Negative",
+      "impact": "Medium",
+      "explanation": "Declining confidence leads to reduced spending and increased savings, but also signals economic anxiety.",
+      "expected_pd_impact": "+3-5%"
+    },
+    "credit_spread": {
+      "change": 0.4,
+      "direction": "Negative",
+      "impact": "High",
+      "explanation": "Widening spreads (+40 bps) indicate tighter credit availability and increased market-perceived default risk.",
+      "expected_pd_impact": "+7-10%"
+    }
+  }
+}

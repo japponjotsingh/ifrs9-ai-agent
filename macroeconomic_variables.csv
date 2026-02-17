@@ -1,0 +1,3 @@
+reporting_date,quarter,economic_outlook,bond_yield_10y,gdp_growth_rate,unemployment_rate,inflation_rate,fed_funds_rate,consumer_confidence,housing_price_index,credit_spread
+2024-09-30,Q3 2024,Stable - Moderate growth with controlled inflation,4.25,2.8,3.8,2.4,5.25,102.5,315.2,1.85
+2024-12-31,Q4 2024,"Deteriorating - Slowing growth, rising unemployment, tighter credit",4.65,1.9,4.3,2.8,5.5,96.8,310.5,2.25
