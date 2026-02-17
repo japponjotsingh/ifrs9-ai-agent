@@ -24,7 +24,7 @@ PROJECT_ID = "ifrs9-analytics"
 DATASET_ID = "credit_risk_ifrs9"
 
 # Gemini API Configuration
-GEMINI_API_KEY = "AIzaSyAqWWODbPoWjLNWPoGi73wOUCxPg7lGgkE"
+GEMINI_API_KEY = "GEMINI_API_KEY", "your-key-here"
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 # Initialize BigQuery Client
